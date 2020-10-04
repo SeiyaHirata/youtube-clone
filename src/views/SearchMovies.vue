@@ -66,16 +66,20 @@ export default {
         q: "", // 検索クエリを指定します。
         part: "snippet",
         type: "video",
-        maxResults: "20", // 最大検索数
+        maxResults: "10", // 最大検索数
         key: this.checkKey()
       }
     };
+  },
+  created() {
+    this.searchVideo();
   },
   methods: {
     toMovieDetil(videoId) {
       this.$router.push({ name: "MovieDetil", params: { id: videoId } });
     },
     searchVideo() {
+      // this.loading++;
       this.params.q = this.keyword;
       axios
         .get("https://www.googleapis.com/youtube/v3/search", {
@@ -84,7 +88,13 @@ export default {
         .then(res => {
           console.log(res.data.items);
           this.results = res.data.items;
+        })
+        .catch(error => {
+          alert(error);
         });
+      // .finally(() => {
+      //   // this.loading--;
+      // });
     },
     checkKey() {
       if (process.env.VUE_APP_YOUTUBE_KEY)

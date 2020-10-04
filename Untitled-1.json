@@ -1,0 +1,81 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "hU2xrAxtXB2alQFkmiypK7ckQkA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "ZYvRqHyOVGdQnbQgxhQ3gim1bko",
+      "id": "Eo4l8ZEwmSk",
+      "snippet": {
+        "publishedAt": "2020-01-19T12:00:03Z",
+        "channelId": "UCczh4w4k5cjuZBKFqlIF3kw",
+        "title": "25歳以下は早めにエンジニア転職しないと損します",
+        "description": "Sベンが独学時代に作っていたもの\nhttps://youtu.be/Gv8magjXMw0\n\n25歳を超えると転職の難易度は爆上がり!?\n「若さ」というアドバンテージを活かして早めに転職しましょう。\nまた見たいと思った方はチャンネル登録と高評価をお願いします！\nコメントもお待ちしています。\n\n学習ロードマップ(初級編)\nhttps://note.mu/upstarts_sven/n/n40bb8099a672\n\n学習ロードマップ(中級編)\nhttps://note.com/upstarts_sven/n/n32ef574281f2\n\nTwitter\nhttps://twitter.com/upstarts777\n\n--目次--\n0:12 若いほど早く転職すべき\n1:20 採用率を上げる方法\n2:40 まとめ\n\n#エンジニア転職 #若手 #アップスターツ\n\nこのチャンネルではプログラミングのレッスン動画も投稿しています！\nぜひご覧ください！\n\n▼再生リスト\n\nプログラミング\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtqEztqdgfn_go5HZOA1oPj\n\nためになるIT雑学\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLsGDgo47Y4rglrmObu4D58k\n\n就活系\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLvCmcw3t8rf6T0YDBn7ZVnp\n\nWeb系\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLuan8_4yNledRlOo7QFEZ6G\n\nフリーランス\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtDs-5UOR1L4nkvh7eCuC8U\n\n語るシリーズ\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtSnwaoKhTzKHnoI19R7D7y\n\n使ってみた\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtVUQPGIIz7L8GZ2v5dPF4W\n\nJava\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLujAblAGXxb89ew4lB41vzY\n\nHTML\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLuLZS_K7qvK9_bFwMa7uJdT\n\nCSS\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLvNxysOIOEcvrdZDw7NSPSm",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Eo4l8ZEwmSk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Eo4l8ZEwmSk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Eo4l8ZEwmSk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Eo4l8ZEwmSk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Eo4l8ZEwmSk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "【下剋上エンジニア】アップスターツSベン",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ja",
+        "localized": {
+          "title": "25歳以下は早めにエンジニア転職しないと損します",
+          "description": "Sベンが独学時代に作っていたもの\nhttps://youtu.be/Gv8magjXMw0\n\n25歳を超えると転職の難易度は爆上がり!?\n「若さ」というアドバンテージを活かして早めに転職しましょう。\nまた見たいと思った方はチャンネル登録と高評価をお願いします！\nコメントもお待ちしています。\n\n学習ロードマップ(初級編)\nhttps://note.mu/upstarts_sven/n/n40bb8099a672\n\n学習ロードマップ(中級編)\nhttps://note.com/upstarts_sven/n/n32ef574281f2\n\nTwitter\nhttps://twitter.com/upstarts777\n\n--目次--\n0:12 若いほど早く転職すべき\n1:20 採用率を上げる方法\n2:40 まとめ\n\n#エンジニア転職 #若手 #アップスターツ\n\nこのチャンネルではプログラミングのレッスン動画も投稿しています！\nぜひご覧ください！\n\n▼再生リスト\n\nプログラミング\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtqEztqdgfn_go5HZOA1oPj\n\nためになるIT雑学\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLsGDgo47Y4rglrmObu4D58k\n\n就活系\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLvCmcw3t8rf6T0YDBn7ZVnp\n\nWeb系\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLuan8_4yNledRlOo7QFEZ6G\n\nフリーランス\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtDs-5UOR1L4nkvh7eCuC8U\n\n語るシリーズ\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtSnwaoKhTzKHnoI19R7D7y\n\n使ってみた\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLtVUQPGIIz7L8GZ2v5dPF4W\n\nJava\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLujAblAGXxb89ew4lB41vzY\n\nHTML\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLuLZS_K7qvK9_bFwMa7uJdT\n\nCSS\nhttps://www.youtube.com/playlist?list=PLmwecH1XCwLvNxysOIOEcvrdZDw7NSPSm"
+        },
+        "defaultAudioLanguage": "ja"
+      },
+      "contentDetails": {
+        "duration": "PT3M25S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "2827",
+        "likeCount": "56",
+        "dislikeCount": "2",
+        "favoriteCount": "0",
+        "commentCount": "7"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
