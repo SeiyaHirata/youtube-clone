@@ -1,10 +1,14 @@
 <template>
   <div class="about">
-    <youtube video-id="abLjAVtX2do" />
+    <youtube :video-id="id" />
     <v-card>
-      <p>
+      <v-card-title v-if="checkApi">
+        {{ checkApi }}
+      </v-card-title>
+
+      <v-card-title>
         {{ results.snippet.title }}
-      </p>
+      </v-card-title>
       <p>
         {{ results }}
       </p>
@@ -16,7 +20,7 @@
 import Vue from "vue";
 import VueYoutube from "vue-youtube";
 import axios from "axios";
-
+import testDetilData from "../../detilData.json";
 Vue.use(VueYoutube);
 
 export default {
@@ -33,7 +37,8 @@ export default {
         part: "snippet,contentDetails,statistics,status",
         key: this.checkKey(),
         id: this.$route.params.id
-      }
+      },
+      checkApi: ""
     };
   },
   methods: {
@@ -46,7 +51,12 @@ export default {
           this.results = res.data.items[0];
         })
         .catch(error => {
-          alert(error);
+          console.log(error);
+          if (error.response.status == "403") {
+            this.checkApi =
+              "本日のYouTubeAPIの使用上限に達しました、現在ダミーデータを使用しています、検索機能は使用できません";
+            this.results = testDetilData.items[0];
+          }
         });
     },
     checkKey() {

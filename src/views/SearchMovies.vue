@@ -2,7 +2,11 @@
   <div class="home">
     <v-row>
       <v-col cols="12" sm="6" md="4">
-        <v-text-field label="検索" v-model="keyword"></v-text-field>
+        <v-text-field
+          label="検索"
+          v-model="keyword"
+          :disabled="!keyword || loading > 0 || checkApi"
+        ></v-text-field>
       </v-col>
       <v-col cols="12" sm="6" md="4">
         <v-btn
@@ -11,7 +15,7 @@
           small
           color="primary"
           @click="searchVideo"
-          :disabled="!keyword || loading > 0"
+          :disabled="!keyword || loading > 0 || checkApi"
           :loading="loading > 0"
         >
           <v-icon dark>
@@ -20,7 +24,7 @@
         </v-btn>
       </v-col>
     </v-row>
-
+    {{ checkApi }}
     <v-row>
       <v-col
         cols="12"
@@ -33,7 +37,7 @@
         <v-hover v-slot:default="{ hover }">
           <v-card
             class="mx-auto my-2"
-            @click="toMovieDetil(result.id.videoId)"
+            @click="toMovieDetil(result.id.videoId || result.id)"
             :elevation="hover ? 12 : 2"
             :class="{ 'on-hover': hover }"
           >
@@ -54,6 +58,10 @@
 
 <script>
 import axios from "axios";
+
+// TODO 検索APIのデータに変更
+import testDetilData from "../../detilData.json";
+
 export default {
   name: "SearchMovies",
   components: {},
@@ -68,7 +76,8 @@ export default {
         type: "video",
         maxResults: "10", // 最大検索数
         key: this.checkKey()
-      }
+      },
+      checkApi: ""
     };
   },
   created() {
@@ -90,7 +99,12 @@ export default {
           this.results = res.data.items;
         })
         .catch(error => {
-          alert(error);
+          console.log(error);
+          if (error.response.status == "403") {
+            this.checkApi =
+              "本日のYouTubeAPIの使用上限に達しました、現在ダミーデータを使用しています、検索機能は使用できません";
+            this.results = testDetilData.items;
+          }
         });
       // .finally(() => {
       //   // this.loading--;
