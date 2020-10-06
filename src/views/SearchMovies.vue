@@ -5,7 +5,7 @@
         <v-text-field
           label="検索"
           v-model="keyword"
-          :disabled="!keyword || loading > 0 || checkApi"
+          :disabled="!keyword || loading > 0 || checkApi != ''"
         ></v-text-field>
       </v-col>
       <v-col cols="12" sm="6" md="4">
@@ -15,7 +15,7 @@
           small
           color="primary"
           @click="searchVideo"
-          :disabled="!keyword || loading > 0 || checkApi"
+          :disabled="!keyword || loading > 0 || checkApi != ''"
           :loading="loading > 0"
         >
           <v-icon dark>
@@ -59,8 +59,7 @@
 <script>
 import axios from "axios";
 
-// TODO 検索APIのデータに変更
-import testDetilData from "../../detilData.json";
+import moviesData from "../../dummy-data/movies.json";
 
 export default {
   name: "SearchMovies",
@@ -68,7 +67,7 @@ export default {
   data() {
     return {
       results: [],
-      keyword: "アップスターツ",
+      keyword: "プログラミング",
       loading: 0,
       params: {
         q: "", // 検索クエリを指定します。
@@ -88,14 +87,12 @@ export default {
       this.$router.push({ name: "MovieDetil", params: { id: videoId } });
     },
     searchVideo() {
-      // this.loading++;
       this.params.q = this.keyword;
       axios
         .get("https://www.googleapis.com/youtube/v3/search", {
           params: this.params
         })
         .then(res => {
-          console.log(res.data.items);
           this.results = res.data.items;
         })
         .catch(error => {
@@ -103,12 +100,9 @@ export default {
           if (error.response.status == "403") {
             this.checkApi =
               "本日のYouTubeAPIの使用上限に達しました、現在ダミーデータを使用しています、検索機能は使用できません";
-            this.results = testDetilData.items;
+            this.results = moviesData.items;
           }
         });
-      // .finally(() => {
-      //   // this.loading--;
-      // });
     },
     checkKey() {
       if (process.env.VUE_APP_YOUTUBE_KEY)

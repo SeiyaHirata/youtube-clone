@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "jWSqJDVS3P2mZeESrLLmNJD1LKQ",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "AKsN2g_sUOc6Tq3_JF41yY5qFts",
+      "id": "7VH-N-dsq3Y",
+      "snippet": {
+        "publishedAt": "2019-12-19T10:00:00Z",
+        "channelId": "UCb9h8EpBlGHv9Z896fu4yeQ",
+        "title": "【初心者向け】プログラミング学習の始め方【３ヶ月で達成できる】",
+        "description": "🔽案件①：２万円を稼げる\r\nhttps://www.lancers.jp/work/detail/1517173\r\n\r\n🔽案件②：10万円を稼げる\r\nhttps://www.lancers.jp/work/detail/1993685\r\n\r\n🔽プログラミング学習の最初の一歩\r\n・ドットインストール：https://dotinstall.com/\r\n・プロゲート：https://prog-8.com/\r\n\r\n🔽【無料】プログラミング基礎のロードマップ【挫折しない教材】\r\nhttps://manablog.org/code-life-start/\r\n\r\n0:00 前置き\n0:53 ①目標設定\n6:11 ②環境準備\n8:46 ③基礎理解\n14:57 ④学習開始\n20:00 ⑤実践開始\n25:02 まとめ\r\n-----------------------------------------------------------------------\r\nSNS\r\n-----------------------------------------------------------------------\r\n\r\n【BLOG】\r\nhttps://manablog.org/\r\n\r\n【Twitter】\r\nhttps://twitter.com/manabubannai\r\n\r\n【自己紹介】\r\nhttps://manablog.org/profile/\r\n\r\n\r\n-----------------------------------------------------------------------\r\n販売している商品\r\n-----------------------------------------------------------------------\r\n\r\n■ブログ型アフィリエイトの完全講義\r\nhttps://manablog.org/blog-life-start/\r\n\r\n■ Manablog Copy｜SEOと読みやすさを追求したテーマ\r\nhttps://manablog.org/manablog-wordpress/\r\n\r\n■プログラミング独立の完全ロードマップ\r\n・無料版：https://manablog.org/code-life-start/\r\n・有料版：https://manablog.org/code-life-open/\r\n\r\n\r\n-----------------------------------------------------------------------\r\n使用機材\r\n-----------------------------------------------------------------------\r\n\r\n■ 映像\r\niPhoneXS Max（https://apple.co/2wiHMjT）\r\n\r\n■ 音声\r\nSHUREマイク（https://amzn.to/2FRYPhI）\r\n\r\n■ 自撮り棒\r\nhttps://amzn.to/32aEBJC",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "マナブ",
+        "tags": [
+          "プログラミング学習",
+          "プログラミング",
+          "プログラミング 始め方"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "【初心者向け】プログラミング学習の始め方【３ヶ月で達成できる】",
+          "description": "🔽案件①：２万円を稼げる\r\nhttps://www.lancers.jp/work/detail/1517173\r\n\r\n🔽案件②：10万円を稼げる\r\nhttps://www.lancers.jp/work/detail/1993685\r\n\r\n🔽プログラミング学習の最初の一歩\r\n・ドットインストール：https://dotinstall.com/\r\n・プロゲート：https://prog-8.com/\r\n\r\n🔽【無料】プログラミング基礎のロードマップ【挫折しない教材】\r\nhttps://manablog.org/code-life-start/\r\n\r\n0:00 前置き\n0:53 ①目標設定\n6:11 ②環境準備\n8:46 ③基礎理解\n14:57 ④学習開始\n20:00 ⑤実践開始\n25:02 まとめ\r\n-----------------------------------------------------------------------\r\nSNS\r\n-----------------------------------------------------------------------\r\n\r\n【BLOG】\r\nhttps://manablog.org/\r\n\r\n【Twitter】\r\nhttps://twitter.com/manabubannai\r\n\r\n【自己紹介】\r\nhttps://manablog.org/profile/\r\n\r\n\r\n-----------------------------------------------------------------------\r\n販売している商品\r\n-----------------------------------------------------------------------\r\n\r\n■ブログ型アフィリエイトの完全講義\r\nhttps://manablog.org/blog-life-start/\r\n\r\n■ Manablog Copy｜SEOと読みやすさを追求したテーマ\r\nhttps://manablog.org/manablog-wordpress/\r\n\r\n■プログラミング独立の完全ロードマップ\r\n・無料版：https://manablog.org/code-life-start/\r\n・有料版：https://manablog.org/code-life-open/\r\n\r\n\r\n-----------------------------------------------------------------------\r\n使用機材\r\n-----------------------------------------------------------------------\r\n\r\n■ 映像\r\niPhoneXS Max（https://apple.co/2wiHMjT）\r\n\r\n■ 音声\r\nSHUREマイク（https://amzn.to/2FRYPhI）\r\n\r\n■ 自撮り棒\r\nhttps://amzn.to/32aEBJC"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT27M47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "897354",
+        "likeCount": "27356",
+        "dislikeCount": "577",
+        "favoriteCount": "0",
+        "commentCount": "961"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,353 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "OU9_DcdY6oSjh0TukABRpMc0MAA",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "JP",
+    "pageInfo": {
+      "totalResults": 330397,
+      "resultsPerPage": 10
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "J3lEaubuLlH-pN5RFRDCXOWVIXs",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "7VH-N-dsq3Y"
+        },
+        "snippet": {
+          "publishedAt": "2019-12-19T10:00:00Z",
+          "channelId": "UCb9h8EpBlGHv9Z896fu4yeQ",
+          "title": "【初心者向け】プログラミング学習の始め方【３ヶ月で達成できる】",
+          "description": "案件①：２万円を稼げる https://www.lancers.jp/work/detail/1517173 案件②：10万円を稼げる https://www.lancers.jp/work/detail/1993685 プログラミング学習の最初 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7VH-N-dsq3Y/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "マナブ",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-12-19T10:00:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "VnT4SW8emerTbirdIU_m66UKA6U",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "nhJaRJzotTk"
+        },
+        "snippet": {
+          "publishedAt": "2016-01-25T12:36:01Z",
+          "channelId": "UCXjTiSGclQLVVU83GVrRM4w",
+          "title": "堀江流！？プログラミング初心者におすすめの勉強方法",
+          "description": "今回のゲストはProgateさん！ プログラミング初心者向けの無料学習サービスを提供するProgateとホリエモンが、プログラミング初心者に向けて勉強方法について語ります。",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nhJaRJzotTk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nhJaRJzotTk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nhJaRJzotTk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "堀江貴文 ホリエモン",
+          "liveBroadcastContent": "none",
+          "publishTime": "2016-01-25T12:36:01Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "8d9OklzEqBwExHQaOXrVbz8YWO8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "dD_KwXU9meA"
+        },
+        "snippet": {
+          "publishedAt": "2019-05-06T14:16:15Z",
+          "channelId": "UCF2Kl5aL-_vcwaNhUf7YqbA",
+          "title": "プログラミング講座 第１回【プログラミングとは】Akichon/あきちょん",
+          "description": "改めてプログラミング講座第１回、プログラミングについて、プログラムとは？コンピューターとは？IT企業の現状について（？）お話です。 --PR オンラインサロンやってます。",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/dD_KwXU9meA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/dD_KwXU9meA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/dD_KwXU9meA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Akichonプログラミング講座",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-05-06T14:16:15Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "c_HYzqtcc2okl08akAS55kDRpcE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "DYX5yNk3HyM"
+        },
+        "snippet": {
+          "publishedAt": "2019-03-20T22:00:02Z",
+          "channelId": "UC67Wr_9pA4I0glIxDt_Cpyw",
+          "title": "第3回 学長オススメのプログラミング勉強法【稼ぐ 実践編】",
+          "description": "更に学びたい・相談したい方は、『リベ大コミュニティ』（無料）のプログラミング部で相談してみてくださいね。多くの先輩プログラマーが在籍しています^^ ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/DYX5yNk3HyM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/DYX5yNk3HyM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/DYX5yNk3HyM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "両学長 リベラルアーツ大学",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-03-20T22:00:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "eM8gHzd8wsOeFYSTPTJARRnJeA4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "8XwG81rHRhU"
+        },
+        "snippet": {
+          "publishedAt": "2020-03-20T10:00:02Z",
+          "channelId": "UCMMjv61LfBy5J3AT8Ua0NGQ",
+          "title": "プログラミングを始める前に知りたかったことトップ３",
+          "description": "チャンネル登録はこちら   http://www.youtube.com/channel/UCMMjv61LfBy5J3AT8Ua0NGQ?sub_confirmation=1 初心者がゼロからプログラミングを学べる動画 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8XwG81rHRhU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8XwG81rHRhU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8XwG81rHRhU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "エンジニアチャンネル",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-03-20T10:00:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "jQ9FqruKARruMp25gLrL1zICbsk",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Ik1_AzopJG4"
+        },
+        "snippet": {
+          "publishedAt": "2020-07-10T09:00:10Z",
+          "channelId": "UC8IWoNfegB72Q2nT9GJy2zQ",
+          "title": "【Web/IT業界あるある】締め切り、プログラミング中、エンジニア面接",
+          "description": "Web/IT業界あるあるを紹介してみました！ 今回の動画は一切何の役にも立たないと思いますが、業界の方はぜひ「あるある〜」って思ってください。 Web/IT業界あるある ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Ik1_AzopJG4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Ik1_AzopJG4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Ik1_AzopJG4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "セイト先生のWeb・IT塾",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-07-10T09:00:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "krz9RnSqf9SzbRGwTAX9SnqK37o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "YpOogSQVfcs"
+        },
+        "snippet": {
+          "publishedAt": "2020-03-14T10:00:27Z",
+          "channelId": "UCb9h8EpBlGHv9Z896fu4yeQ",
+          "title": "【事実】副業でプログラミングを学んでも、伸び悩むことが多い理由",
+          "description": "チャンネル登録はこちら   https://www.youtube.com/c/manabuch?sub_confirmation=1 ----------------------------------------------------------------------- SNS ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YpOogSQVfcs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YpOogSQVfcs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YpOogSQVfcs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "マナブ",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-03-14T10:00:27Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "9B_dIDVZzF3SgRgeEo09pH9iiPo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ZJqVQJwvwNI"
+        },
+        "snippet": {
+          "publishedAt": "2019-08-11T12:00:11Z",
+          "channelId": "UCJsEBx7hV04Q02Yz9iAgXuQ",
+          "title": "プログラミングにはやってはいけない勉強法がある！？爆速で成長する王道のプログラミング学習法を紹介！",
+          "description": "実はプログラミングの勉強は特殊です！ 学校で勉強していた方法とは全然違います。 今回は、プログラミングの効率的な学習方法について解説しています。 チャンネル登録 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ZJqVQJwvwNI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ZJqVQJwvwNI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ZJqVQJwvwNI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "東京フリーランス",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-08-11T12:00:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "-yXJ67FqNyLHLqNygIlyuHK1L_c",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "mIYJrEScAGI"
+        },
+        "snippet": {
+          "publishedAt": "2020-08-07T10:00:30Z",
+          "channelId": "UCMMjv61LfBy5J3AT8Ua0NGQ",
+          "title": "プログラミング言語人気第１位Pythonで出来ること３選",
+          "description": "チャンネル登録はこちら   http://www.youtube.com/channel/UCMMjv61LfBy5J3AT8Ua0NGQ?sub_confirmation=1 PYPL PopularitY of Programming Language ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/mIYJrEScAGI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/mIYJrEScAGI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/mIYJrEScAGI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "エンジニアチャンネル",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-08-07T10:00:30Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "bzB7mpUmyk15EI8p3AfGzJzFA3w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "eijiMesI70I"
+        },
+        "snippet": {
+          "publishedAt": "2020-01-20T10:40:47Z",
+          "channelId": "UCrzY-kt2N1vmevHAmp0MnaQ",
+          "title": "【初心者必見】プログラミングを始める上で絶対に知っておくべきポイント",
+          "description": "公式LINEにてフリーランスやWebデザイナーを目指す方に向けた、 実践的な情報やスキルアップのためのコンテンツをお届けしてます。 LINE限定でフリーランスのため ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/eijiMesI70I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eijiMesI70I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eijiMesI70I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "たなべあいり",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-01-20T10:40:47Z"
+        }
+      }
+    ]
+  }
+  
