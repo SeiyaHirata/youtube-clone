@@ -5,7 +5,7 @@
         <v-text-field
           label="検索"
           v-model="keyword"
-          :disabled="!keyword || loading > 0 || checkApi != ''"
+          :disabled="loading > 0 || checkApi != ''"
         ></v-text-field>
       </v-col>
       <v-col cols="12" sm="6" md="4">
