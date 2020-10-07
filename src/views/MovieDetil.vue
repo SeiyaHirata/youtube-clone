@@ -1,6 +1,11 @@
 <template>
   <div>
-    <v-navigation-drawer app permanent right :width="width * 0.3">
+    <v-navigation-drawer
+      app
+      :permanent="768 < width"
+      right
+      :width="width * 0.3"
+    >
       <v-container>
         <h4>次の動画(ここはダミーデータです)</h4>
         <span v-for="(movie, index) in moviesData" :key="index">
@@ -23,17 +28,46 @@
         </span>
       </v-container>
     </v-navigation-drawer>
-    <youtube :video-id="id" :width="width * 0.6" :height="(width * 0.6) / 2" />
+    <youtube
+      :video-id="id"
+      :width="768 >= width ? width * 0.9 : width * 0.6"
+      :height="768 >= width ? (width * 0.9) / 2 : (width * 0.6) / 2"
+    />
     <v-card-title v-if="checkApi">
       {{ checkApi }}
-    </v-card-title>
-
-    <v-card-title>
-      {{ results.snippet.channelTitle }}
     </v-card-title>
     <v-card-title>
       {{ results.snippet.title }}
     </v-card-title>
+    <v-card-subtitle>
+      {{ results.snippet.channelTitle }}
+    </v-card-subtitle>
+    <v-divider inset></v-divider>
+    <h3>ここに概要欄とか。。</h3>
+    <!-- 768px以下で表示 -->
+    <v-container v-if="768 >= width">
+      <h4>次の動画(ここはダミーデータです)</h4>
+      <v-row>
+        <v-col v-for="(movie, index) in moviesData" :key="index">
+          <v-hover v-slot:default="{ hover }">
+            <v-card
+              :elevation="hover ? 12 : 2"
+              :class="{ 'on-hover': hover }"
+              class="mb-2"
+              @click="toMovieDetil(movie.id.videoId)"
+            >
+              <v-img :src="movie.snippet.thumbnails.medium.url"></v-img>
+              <v-card-subtitle>
+                {{ movie.snippet.title }}
+              </v-card-subtitle>
+              <v-card-subtitle>
+                {{ movie.snippet.channelTitle }}
+              </v-card-subtitle>
+            </v-card>
+          </v-hover>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -73,7 +107,7 @@ export default {
     }
   },
   methods: {
-    searchVideo() {
+    async searchVideo() {
       axios
         .get("https://www.googleapis.com/youtube/v3/videos", {
           params: this.params

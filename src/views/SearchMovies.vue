@@ -1,14 +1,14 @@
 <template>
   <div class="home">
     <v-row>
-      <v-col cols="12" sm="6" md="4">
+      <v-col cols="8" sm="6" md="4">
         <v-text-field
           label="検索"
           v-model="keyword"
           :disabled="loading > 0 || checkApi != ''"
         ></v-text-field>
       </v-col>
-      <v-col cols="12" sm="6" md="4">
+      <v-col cols="4" sm="6" md="4">
         <v-btn
           fab
           dark
