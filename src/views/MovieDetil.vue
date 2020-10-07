@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- 768px以上で表示 -->
     <v-navigation-drawer
       app
       :permanent="768 < width"
@@ -43,7 +44,6 @@
       {{ results.snippet.channelTitle }}
     </v-card-subtitle>
     <v-divider inset></v-divider>
-    <h3>ここに概要欄とか。。</h3>
     <!-- 768px以下で表示 -->
     <v-container v-if="768 >= width">
       <h4>次の動画(ここはダミーデータです)</h4>
