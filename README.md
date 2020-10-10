@@ -1,5 +1,7 @@
 # youtube-app
 
+初コミット
+
 ## Project setup
 ```
 yarn install
