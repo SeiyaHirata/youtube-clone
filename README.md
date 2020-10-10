@@ -1,6 +1,6 @@
 # youtube-app
 
-よろしくお願いします！！
+よろしくお願いします!!!
 
 ## Project setup
 ```
