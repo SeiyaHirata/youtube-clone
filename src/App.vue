@@ -34,23 +34,24 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <v-container>
+        <router-view></router-view>
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-
 export default {
   name: "App",
-
-  components: {
-    HelloWorld
-  },
-
+  components: {},
   data: () => ({
     //
-  })
+  }),
+  methods: {
+    toSearchMovies() {
+      this.$router.push({ name: "SearchMovies" });
+    }
+  }
 };
 </script>
