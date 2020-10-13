@@ -34,7 +34,7 @@
     </v-app-bar>
 
     <v-main>
-       <v-container>
+      <v-container>
         <router-view></router-view>
       </v-container>
     </v-main>
@@ -42,17 +42,16 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-
 export default {
   name: "App",
-
-  components: {
-    HelloWorld
-  },
-
+  components: {},
   data: () => ({
     //
-  })
+  }),
+  methods: {
+    toSearchMovies() {
+      this.$router.push({ name: "SearchMovies" });
+    }
+  }
 };
 </script>
