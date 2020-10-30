@@ -22,35 +22,50 @@
       </div>
 
       <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
     </v-app-bar>
 
+    <!-- <horizontal-scroll :style="`height:${windowSize.y}px `"> -->
+
     <v-main>
-      <HelloWorld />
+      <router-view></router-view>
     </v-main>
+
+    <!-- </horizontal-scroll> -->
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+// import HorizontalScroll from "vue-horizontal-scroll";
+import "vue-horizontal-scroll/dist/vue-horizontal-scroll.css";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld
+    // HorizontalScroll
   },
-
-  data: () => ({
-    //
-  })
+  data() {
+    return {
+      windowSize: {
+        x: 0,
+        y: 0
+      }
+    };
+  },
+  methods: {
+    onResize() {
+      this.windowSize = { x: window.innerWidth, y: window.innerHeight };
+    }
+  },
+  mounted() {
+    this.onResize();
+  }
 };
 </script>
+
+<style lang="css">
+.v-main__wrap {
+  /* background-image: url("https://cdn.vuetifyjs.com/images/parallax/material.jpg"); */
+  background-color: lightgrey;
+}
+</style>
