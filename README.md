@@ -1,5 +1,7 @@
 # youtube-app
 
+初めまして！しんです。
+
 ## Project setup
 ```
 yarn install
