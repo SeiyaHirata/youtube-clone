@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import SearchMovies from "../views/SearchMovies.vue";
-import Home from "../views/Home.vue";
+// import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
 
@@ -11,11 +11,11 @@ const routes = [
     name: "SearchMovies",
     component: SearchMovies
   },
-  {
-    path: "/",
-    name: "Home",
-    component: Home
-  },
+  // {
+  //   path: "/",
+  //   name: "Home",
+  //   component: Home
+  // },
   {
     path: "/about",
     name: "About",
