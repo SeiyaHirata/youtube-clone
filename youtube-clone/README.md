@@ -1,8 +1,4 @@
-daisuke
-
-# youtube-app
-
-初コミット
+# youtube-clone
 
 ## Project setup
 ```
