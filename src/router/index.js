@@ -1,14 +1,20 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import MovieDetil from "../views/MovieDetil.vue";
+import SearchMovies from "../views/SearchMovies.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "/movie:id",
     name: "MovieDetil",
     component: MovieDetil
+  },
+  {
+    path: "/",
+    name: "SearchMovies",
+    component: SearchMovies
   },
   // {
   //   path: "/",
